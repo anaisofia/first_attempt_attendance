@@ -4,4 +4,5 @@ class Course < ApplicationRecord
 
   has_many :users, through: :lessons
   has_many :statuses, through: :lessons
+  has_many :course_statuses
 end
